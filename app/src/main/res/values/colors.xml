@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/dark_sky_blue</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryColor">@color/dark_sky_blue</color>
+    <color name="primaryColorDark">@color/cerulean</color>
+    <color name="primaryColorLight">#FF76D5EF</color>
+    <color name="primaryColorSecond">@color/light_sky_blue</color>
+    <color name="primaryColor_10">#1A41AADB</color>
+    <color name="statusbar_color_dark_grey">@color/grey_third</color>
+    <color name="statusbar_color_light_grey">@color/grey_chatbox</color>
+
+    <color name="primary_color_light">#7ed3df</color>
+    <color name="accentColor">@color/blush</color>
+
+    <color name="colorHighlight">#f1315a</color>
+    <color name="FAFAFA">#fafafa</color>
+    <color name="white">#ffffff</color>
+    <color name="white_opacity_70">#B3ffffff</color>
+
+    <color name="main_bg">#f5f7f9</color>
+
+    <color name="very_light_blue">#C3E6F5</color>
+    <color name="light_sky_blue">#249AD0</color>
+    <color name="dark_sky_blue">#41AADB</color>
+    <color name="cerulean">#0785b9</color>
+    <color name="blush">#f18282</color>
+    <color name="sky_blue">#84D3E6</color>
+    <color name="dark_sky_blue_70">#B341AADB</color>
+    <color name="light_grey">#FF666666</color>
+    <color name="light_yellow">#F4DD58</color>
+    <color name="transparent_sky_blue">#990784B8</color>
+
+    <color name="light_shade">#efefef</color>
+    <color name="light">#f6f6f6</color>
+    <color name="grey">#cacaca</color>
+    <color name="purple_brown">#412c42</color>
+    <color name="opaque_purple_brown">#B3412c42</color>
+
+    <color name="light_teal">#84d3e6</color>
+    <color name="hint_green">#06d0a3</color>
+    <color name="light_green">#06D0A3</color>
+    <color name="green_middle">#0AAF87</color>
+
+    <color name="transcent_accentColor">#9Ff18282</color>
+    <color name="transcent_primaryColor">#9F41aadb</color>
+    <color name="transcent_black">#e5000000</color>
+
+    <color name="light_transcent_primaryColor">#3526ADB5</color>
+    <color name="hard_transcent_primaryColor">#cc0784b9</color>
+    <color name="transcent_primaryColorDark_pressed">#ee0784b9</color>
+    <color name="hard_transcent_accentColor">#e1f1315a</color>
+    <color name="drawer_highlight_gray">#3fc8c8c8</color>
+    <color name="transcent_gray">#afc8c8c8</color>
+    <color name="hard_transcent_gray">#e0c8c8c8</color>
+    <color name="transcent_white">#ccf0f0f0</color>
+    <color name="transparent_white_70">#B2FFFFFF</color>
+    <color name="transparent_blue_green">#400784B8</color>
+    <color name="blue_green">#0784B8</color>
+
+    <color name="pale_grey">#E6E9ED</color>
+    <color name="dark_gray">#333333</color>
+    <color name="charcoal_grey">#434a54</color>
+    <color name="slate_grey">#656d78</color>
+    <color name="silver_grey">#C6C6C6</color>
+
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_70">#B2FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_05">#0D000000</color>
+    <color name="black_30">#4d000000</color>
+    <color name="black_54">#8A000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_dialog_shadow">#CC404042</color>
+    <color name="black_second">#404042</color>
+
+    <color name="grey_hint">#9B9B9B</color>
+    <color name="grey_border">#AAB2BD</color>
+    <color name="grey_secondary">#4A4A4A</color>
+    <color name="grey_third">#808080</color>
+    <color name="primary_title_black">#ff404042</color>
+    <color name="grey_edit_bottomline">#D8D8D8</color>
+    <color name="grey_unselected">#CCD1D9</color>
+    <color name="grey_divider">#e7e7e7</color>
+    <color name="grey_chatbox">#e6e6e6</color>
+    <color name="grey_selection">#717171</color>
+    <color name="grey_icon_light">#564557</color>
+    <color name="grey_date">#8C8C8C</color>
+    <color name="grey_tutor_profile">#4DE6E6E6</color>
+    <color name="grey_tutor_profile_empty">#F2E6E6E6</color>
+    <color name="grey_disable">#e6e6e6</color>
+    <color name="grey_indicator">#DBDBDB</color>
+    <color name="grey_check_tint">#EDEDED</color>
+    <color name="grey_divider_exam">#CCCCCC</color>
+    <color name="grey_pressed_state">#80E6E6E6</color>
+
+    <color name="quiz_card_1">#FACDCD</color>
+    <color name="quiz_card_2">#A5EBE1</color>
+    <color name="quiz_card_3">#C3E5F5</color>
+    <color name="quiz_card_4">#E1E0FF</color>
+
+    <array name="quiz_card_background">
+        <item>@color/quiz_card_1</item>
+        <item>@color/quiz_card_2</item>
+        <item>@color/quiz_card_3</item>
+        <item>@color/quiz_card_4</item>
+    </array>
+
+    <color name="red_input_error">#FD4C6F</color>
+
+
+    <color name="blue_fb_primary">#3B5998</color>
+
+
+
+    <color name="secondaryText">@color/slate_grey</color>
+    <color name="navigation_drawer_text_color">@color/slate_grey</color>
+    <color name="dialog_title_color">@color/charcoal_grey</color>
+
+    <!--Snapask-->
+    <color name="subject_image">@color/purple_brown</color>
+    <color name="question_card_subject">@color/purple_brown</color>
+    <color name="question_card_date">@color/black_30</color>
+    <color name="question_card_rating">@color/blush</color>
+
+
+    <!-- for photo edition -->
+    <color name="stroke_red">#e15e5e</color>
+    <color name="stroke_yellow">#e1d95e</color>
+    <color name="stroke_green">#5ee174</color>
+    <color name="stroke_blue">#5ed0e1</color>
+    <color name="stroke_purple">#c15ee1</color>
+    <color name="stroke_black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="tool_background">#f0282828</color>
+    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="black_translucent">#B0000000</color>
+    <color name="border">@color/white_translucent</color>
+    <color name="guideline">@color/white_translucent</color>
+    <color name="corner">@android:color/white</color>
+    <color name="surrounding_area">@color/black_translucent</color>
+    <color name="empty_state_text">#66000000</color>
+    <!-- end -->
+
+    <color name="chatroom_status_green">#39eaa6</color>
+
+    <color name="twenty_opacity_white">#33ffffff</color>
+    <color name="seventy_opacity_white">#B3ffffff</color>
+
+    <color name="purple_eighty_percent">#D9412C42</color>
+
+    <color name="remaining_question_recharge_section">#ff404042</color>
+
+    <color name="favorited_tutors_btn">#FFF18282</color>
+    <color name="favorited_tutors_page_title">#FF412C42</color>
+    <color name="favorited_tutors_empty">#FF808080</color>
+
+    <color name="fav_ask_item_des">#8A000000</color>
+
+    <color name="tab_text_color">#FFCACACA</color>
+    <color name="verified_color">#FF0AAF87</color>
+    <color name="unverified_color">#FFEBC81E</color>
+    <color name="light_background">#FFF6F6F6</color>
+
+</resources>

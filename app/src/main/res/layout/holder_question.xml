@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/q_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_question_card">
+
+    <View
+        android:id="@+id/red_dot"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/circle_accent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/q_photo"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="16dp" />
+
+    <ImageView
+        android:id="@+id/q_tutor_pic"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/circle_white_stroke" />
+
+
+    <TextView
+        android:id="@+id/q_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/q_photo"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/purple_brown"
+        android:textSize="12sp"
+        tools:text="What does paraphrasing mean?" />
+
+    <TextView
+        android:id="@+id/q_interaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q_question"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/q_photo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/purple_brown"
+        android:textSize="16sp"
+        tools:text="Message received." />
+
+    <LinearLayout
+        android:id="@+id/stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q_question"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/q_photo"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/angry"
+            style="@style/RatingIconOnQuestionList"
+            android:src="@drawable/ic_rating_normal" />
+
+        <ImageView
+            android:id="@+id/sad"
+            style="@style/RatingIconOnQuestionList"
+            android:src="@drawable/ic_rating_normal" />
+
+        <ImageView
+            android:id="@+id/meh"
+            style="@style/RatingIconOnQuestionList"
+            android:src="@drawable/ic_rating_normal" />
+
+        <ImageView
+            android:id="@+id/like"
+            style="@style/RatingIconOnQuestionList"
+            android:src="@drawable/ic_rating_normal" />
+
+        <ImageView
+            android:id="@+id/love"
+            style="@style/RatingIconOnQuestionList"
+            android:src="@drawable/ic_rating_normal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/q_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q_interaction"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/q_photo"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/grey_third"
+        android:textSize="12sp"
+        tools:text="College Chemistry" />
+
+    <TextView
+        android:id="@+id/q_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/q_topic"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/grey_third"
+        android:textSize="12sp"
+        tools:text="09:38" />
+
+    <!-- This view below is only for students' completed questions without a rating. -->
+
+    <TextView
+        android:id="@+id/rating_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q_topic"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/q_photo"
+        android:background="@drawable/bg_disable_btn_radius_2dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@color/grey_third"
+        android:textSize="12sp"
+        tools:text="Friendly" />
+
+    <!---->
+
+</RelativeLayout>

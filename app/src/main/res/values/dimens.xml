@@ -1,0 +1,88 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="round_corner_min_radius">1dp</dimen>
+    <dimen name="round_corner_radius">8dp</dimen>
+    <dimen name="round_corner_large_radius">20dp</dimen>
+
+    <item name="logo_alpha_value" format="float" type="dimen">0.96</item>
+
+    <dimen name="tutor_ace_group_list_padding_left">8dp</dimen>
+    <dimen name="tutor_ace_group_list_padding_top">10dp</dimen>
+    <dimen name="tutor_ace_group_search_bar_round_corner_radius">24dp</dimen>
+    <dimen name="tutor_ace_top_inner_margin">4dp</dimen>
+
+    <dimen name="group_content_text_size">12sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+
+    <dimen name="dialog_title">20sp</dimen>
+
+    <dimen name="photo_edition_default_added_text_size">24sp</dimen>
+    <dimen name="photo_edition_color_picker_circle_radius">24dp</dimen>
+    <dimen name="photo_edition_color_picker_circle_border_width">2dp</dimen>
+
+    <dimen name="profile_circular_photo_width">56dp</dimen>
+    <dimen name="profile_circular_photo_extra_larger_width">86dp</dimen>
+    <dimen name="profile_info_icon_size">16dp</dimen>
+
+    <dimen name="progress_bar_size">48dp</dimen>
+
+    <!-- Drawer -->
+    <!--Override the distance between icon and text in list item in navigationview in drawer -->
+    <dimen name="nav_drawer_width">278dp</dimen>
+
+
+    <!-- for photo edition -->
+    <dimen name="border_thickness">2dp</dimen>
+    <dimen name="corner_thickness">3dp</dimen>
+    <dimen name="guideline_thickness">1px</dimen>
+
+    <dimen name="target_radius">24dp</dimen>
+    <dimen name="snap_radius">3dp</dimen>
+    <dimen name="corner_length">20dp</dimen>
+    <!-- end -->
+
+
+    <!-- for chatroom and special symbol keyboard -->
+    <dimen name="navigation_avatar_size">32dp</dimen>
+    <dimen name="navigation_avatar_size_ripple">42dp</dimen>
+    <dimen name="key_height">50dip</dimen>
+    <dimen name="key_spacing">0px</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_regular">16dp</dimen>
+    <dimen name="margin_login_button">86dp</dimen>
+    <item name="ddx" format="integer" type="dimen">-1000</item>
+    <item name="paren" format="integer" type="dimen">-1002</item>
+    <item name="ln" format="integer" type="dimen">-1003</item>
+    <item name="sin" format="integer" type="dimen">-1004</item>
+    <item name="cos" format="integer" type="dimen">-1005</item>
+    <item name="tan" format="integer" type="dimen">-1006</item>
+    <item name="csc" format="integer" type="dimen">-1007</item>
+    <item name="sec" format="integer" type="dimen">-1008</item>
+    <item name="cot" format="integer" type="dimen">-1009</item>
+    <item name="sbrack" format="integer" type="dimen">-1010</item>
+    <item name="cbrack" format="integer" type="dimen">-1011</item>
+    <item name="e" format="integer" type="dimen">-1013</item>
+    <item name="lim" format="integer" type="dimen">-1015</item>
+    <!-- end -->
+
+    <!-- for curriculum cards-->
+    <dimen name="curriculum_card_width">220dp</dimen>
+    <dimen name="curriculum_card_padding_left">24dp</dimen>
+
+    <dimen name="question_photo_radius">4dp</dimen>
+
+    <dimen name="chat_room_typing_area_height">56dp</dimen>
+    <dimen name="chat_room_math_keyboard_height">220dp</dimen>
+
+    <dimen name="chat_bubble_radius">16dp</dimen>
+
+
+
+</resources>
